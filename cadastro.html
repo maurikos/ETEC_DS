@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Profissional</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Cadastro Profissional</h1>
+
+        <form action="processaCadastro.php" method="POST">
+
+            <label for="nome">Nome completo:</label><br>
+            <input type="text" id="nome" name="nome" required>
+            <br><br>
+
+            <label for="idade">Idade:</label><br>
+            <input type="number" id="idade" name="idade" required>
+            <br><br>
+
+            <label for="profissao">Profissão:</label><br>
+            <input type="text" id="profissao" name="profissao" required>
+            <br><br>
+
+            <label for="salario">Salário pretendido:</label><br>
+            <input type="number" id="salario" name="salario" step="0.01" required>
+            <br><br>
+
+            <label for="experiencia">Experiência anterior:</label><br>
+            <textarea id="experiencia" name="experiencia" rows="6" required></textarea>
+            <br><br>
+
+            <button type="submit">Enviar cadastro</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
