@@ -15,7 +15,7 @@ $experiencia = $_POST["experiencia"];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dados do Cadastro</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
